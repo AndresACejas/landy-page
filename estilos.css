@@ -54,16 +54,8 @@
         cursor: pointer;
         gap: 20px; 
        
-        
-        }
-        .menu-lista ul {
-            color: rgb(202, 28, 86);
-        }
-    
-        .menu-lista a{
-            color: rgba(245, 237, 237, 0.993);
-            transform: perspective(1.menu-lista ul
-            );  
+    }
 
-        }
-
+    .menu-lista a {
+        color: rgba(245, 237, 237, 0.993);
+    }
