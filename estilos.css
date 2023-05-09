@@ -59,3 +59,64 @@
     .menu-lista a {
         color: rgba(245, 237, 237, 0.993);
     }
+
+    /* E3 */
+
+    #intro {
+        display: flex;
+        padding: 70px 0px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background: rgb(110, 110, 177);
+    }
+
+    .descripciones {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+    } 
+
+    .descripcion {
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .descripcion h1 {
+        font-size: 48px;
+        width: 80%;
+        font-weight: 800;
+    }
+
+    .descripcion p {
+        font-size: 16px;
+        font-weight: 400;
+        width: 70%;
+    }
+
+    .descripcion a {
+        font-size: 14px;
+        font-weight: 300;
+        background: rgb(24, 233, 118);
+        padding: 15px 25px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .descripcion-grafica {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 50%;
+    }
+
+    .descripcion-grafica img{
+        border-radius: 10px;
+        padding: 5px;
+        height: 440px;
+        width: 550px;
+    }
